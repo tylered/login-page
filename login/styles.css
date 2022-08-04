@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    font-size: 12px;
+}
+
+html {
+    background: linear-gradient(0.3turn, #1884dd, #a499a3, #c71db3);
+}
+
+.login-section {
+    background-color: white;
+    position:absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%); 
+    height: 35rem;
+    width: 30rem;
+}
+
+.login-section .title {
+    margin: 0 auto;
+    text-align: center;
+    width: 25rem;
+    border-bottom: 1px solid grey;
+}
+
+.login-section h1 {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.inputs {
+    margin-top: 3rem;
+}
+
+.login-section input {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+}
+
+.login-section .foruser {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 18rem;
+    padding: 0.8rem;
+}
+
+.login-section .foruser:focus {
+    outline: none;
+    border-bottom: 2px solid purple;
+}
+
+.inputs .sub {
+    color: white;
+    background-color: #c71db3;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.7rem 5rem;
+}
+
+.inputs .sub:hover {
+    cursor:pointer;
+}
+
+.inputs a {
+    text-align: center;
+    color: gray;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+}
+
+.inputs .forgot {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sign {
+    text-align: center;
+}
+
+.sign p{
+    font-family: 'Comfortaa', cursive;
+}
+
+.sign p, .sign a {
+    display: inline;
+    font-size: 1rem;
+}
+
+.sign a {
+    color:#c71db3;
+}
+
+.sign a:hover, .inputs .forgot:hover {
+    color:#1884dd;
+}
+
+footer {
+    text-align: center;
+    position:fixed;
+    height: 2rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+
+}
+
+.left, .right {
+    padding-top: 0.5rem;
+}
+
+.left {
+    float: left;
+    padding-left: 0.5rem;
+}
+
+.left span {
+    font-size: 1rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.left span:hover {
+    color:#1884dd;
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+}
+
+.right i {
+    font-size: 1rem;
+    color: black;
+    margin: 0 0.5rem;
+}
+
+.right i:hover {
+    color:#c71db3;
+    cursor: pointer;
+}
+
